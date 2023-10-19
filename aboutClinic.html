@@ -1,0 +1,104 @@
+<!--Entendo o Desafio
+Sobre a clínica
+Horário de Atendimento
+Contato
+Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+Abaixo como cada página deve ser criada e estruturada.
+
+Estrutura das Páginas
+Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo template.html para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+
+Estrutura
+
+* No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma.
+
+No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.
+Sobre a clínica
+Deve ter uma imagem diferente no Header.
+Em Content um texto falando sobre a clínica.
+Menu e Footer padrões em todas as páginas.
+Bons estudos wink-->
+
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico Antunes Portella</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="shortcut icon" href="/logoHeader.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="mainPage.html">Inicio</a></li>
+                <li><a href="officeHours.html">Horário de Atendimento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <div>
+                    <img src="./img/imagemMao.jpeg" alt="mao-segurando-o-conceito-de-saude-do-estetoscopio">
+                </div>
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <p>O <strong><i>Centro Médico Antunes Portella </strong></i> é uma instituição de saúde renomada que
+                    se destaca por sua
+                    excelência no atendimento médico e na prestação de serviços de saúde. Localizado na cidade de
+                    Teresópolis, no estado do Rio de Janeiro, Brasil, o centro médico leva o nome do <em
+                        style="background-color: #0000ff;">Dra. Nicoly
+                        Antunes
+                        Portella,</em> um
+                    importante médica da região que dedicou sua vida ao avanço da medicina e à melhoria do
+                    sistema de saúde local.</p>
+
+                <p>O <strong><i>Centro Médico Antunes Portella </strong></i> é conhecido por oferecer uma ampla gama de
+                    especialidades médicas e
+                    serviços de saúde, atendendo às necessidades de pacientes de todas as idades. As instalações são
+                    modernas e bem equipadas, proporcionando um ambiente confortável e seguro para os pacientes. Os
+                    profissionais que trabalham no centro médico são altamente qualificados, experientes e comprometidos
+                    com o bem-estar dos pacientes.</p>
+
+                <p>Entre os serviços oferecidos pelo <strong><i>Centro Médico Antunes Portella </strong></i>, incluem-se
+                    consultas médicas,
+                    exames laboratoriais, exames de imagem, procedimentos cirúrgicos, acompanhamento pré-natal,
+                    tratamentos especializados, fisioterapia, entre outros. A instituição também está envolvida em
+                    iniciativas de educação e prevenção de saúde, visando conscientizar a comunidade sobre a importância
+                    da manutenção da saúde e da prevenção de doenças.</p>
+
+                <p>Além disso, o <strong><i>Centro Médico Antunes Portella </strong></i> tem um compromisso com a
+                    inovação e a
+                    pesquisa médica,
+                    buscando constantemente avanços na área da saúde e implementando as mais recentes tecnologias e
+                    práticas médicas em seu atendimento.</p>
+
+                <p>Em resumo, o <strong><i>Centro Médico Antunes Portella </strong></i> é uma instituição de referência
+                    em
+                    saúde na região de
+                    Teresina, oferecendo serviços médicos de alta qualidade, com uma equipe de profissionais dedicados e
+                    instalações modernas, sempre com o objetivo de promover a saúde e o bem-estar da comunidade.</p>
+
+
+            </div>
+            <div class="footer">
+
+                <!-- Aqui vai o seu rodapé -->
+                <p><strong>Centro Médico Antunes Portella </strong> &copy; 2023. Todos os direitos reservados. | <a
+                        href="/contact.html" style="color: #ffff00;">Contato</a></p>
+                <p>Endereço Servidão Delta, 14 Varzea Teresópolis - RJ CEP: 25955-110</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
